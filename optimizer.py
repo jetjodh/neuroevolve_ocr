@@ -9,7 +9,7 @@ from operator import add
 import random
 from network import Network
 
-class optimizer():
+class Optimizer():
     # Class that implements genetic algorithm for MLP optimization
 
     def __init__(self,nn_param_choices,retrain=0.4,random_select=0.1,mutate_chance=0.2):
@@ -39,7 +39,7 @@ class optimizer():
         """
         pop=[]
         for i in range(0,count):
-            network = Network
+            network = Network(self.nn_param_choices)
             network.create_random()
             pop.append(network)
         return pop
