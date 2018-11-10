@@ -1,4 +1,4 @@
 # neuroevolve_ocr
 
 Work in progress.
- Welcome to any help:)
+Using Evolutionary algorithm for MLP Optimization for OCR.
